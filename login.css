@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#tampilan-1{
+	height: 100vh;
+	background-image: url(gambar/backgroundlogin.jpg);
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+ 	justify-content: center;
+ 	display: flex;
+}
+
+.login {
+	height: 80%;
+	width: 80%;
+	background-color: #2c2c2c;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.login .login-kiri {
+	height: 100%;
+	width: 50%;
+	float: left;
+	background-image: url(gambar/backgroundlogin-kiri.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.login .login-kanan{
+	height: 100%;
+	width: 50%;	
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login .login-kanan .login-box{
+	height: 80%;
+	width: 60%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.login .login-kanan .login-box img{
+	width: 20%;
+	margin-bottom: 10px;
+	
+}
+
+.login .login-kanan .login-box h1{
+	color: white;
+	font-size: 2.2vw;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+}
+
+.login .login-kanan .login-box h2{
+	color: #ffc600;
+	font-size: 0.8vw;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 10px;
+	
+}
+
+.login .login-kanan .login-box .mb-3 label{
+	font-size: 0.7vw;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+.login .login-kanan .login-box .mb-3 .form-text{
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.6vw;
+	margin-bottom: 10px;
+}
+
+.login .login-kanan .login-box button{
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	display: inline-block;
+	font-size: 0.8vw;
+	margin-bottom: 10px;
+}
+
+
+.login .login-kanan .login-box p{
+	font-size: 0.7vw;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.login .login-kanan .login-box a{
+	color: #ffc600;
+	font-weight: bolder;
+}

@@ -1,0 +1,347 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#tampilan-1{
+	height: 200vh;
+	background-image: url(../gambar/backgroundabout.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar{
+	width: 100%;
+	height: 5%;
+	display: flex;
+}
+
+.navbar .navbar-kiri{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar .navbar-kiri img{
+	width: 50%;
+}
+
+.navbar .navbar-tengah{
+	width: 60%;
+	height: 100%;
+	padding-left: 25%;
+	padding-top: 0.7%;
+}
+
+.navbar .navbar-tengah ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.navbar .navbar-tengah ul li a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-tengah ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+}
+
+.navbar .navbar-tengah .dropdown li{
+	display: inline-block;
+
+}
+ 
+.navbar .navbar-tengah .dropdown:hover .isi-dropdown {
+	display: block;
+	width: 250px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+ 
+.navbar .navbar-tengah .isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #181818;
+	
+}
+ 
+.navbar .navbar-tengah .isi-dropdown a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;	
+
+}
+
+.navbar .navbar-tengah .isi-dropdown a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-tengah .isi-dropdown li {
+	margin-bottom: 10px;
+}
+
+.navbar .navbar-kanan{
+	width: 20%;
+	height: 100%;
+}
+
+.navbar .navbar-kanan .nav-k-kiri{
+	width: 17%;
+	height: 100%;
+	float: left;
+	padding: 7px;
+}
+
+.navbar .navbar-kanan .nav-k-kiri .kiri-foto img{
+	height: 100%; 
+	width: 100%; 
+	top:0;
+	left:0;
+	object-fit: cover;
+	border-radius: 100%;
+	border-style: none;
+
+}
+
+.navbar .navbar-kanan .nav-k-kanan{
+	width: 83%;
+	height: 100%;
+	float: right;
+	padding-top: 4%;
+}
+
+.navbar .navbar-kanan .nav-k-kanan ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: -30px;
+}
+
+.navbar .navbar-kanan .nav-k-kanan ul li a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-kanan .nav-k-kanan ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+}
+
+.navbar .navbar-kanan .nav-k-kanan .dropdown li{
+	display: inline-block;
+
+}
+ 
+.navbar .navbar-kanan .nav-k-kanan .dropdown:hover .isi-dropdown {
+	display: block;
+	width: 200px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+ 
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #181818;
+	
+}
+ 
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;	
+
+}
+
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown li {
+	margin-bottom: 10px;
+}
+
+.about-judul{
+	width: 90%;
+	height: 45%;
+	margin: auto;
+	padding: 40px;
+
+}
+
+.about-judul .judul-kiri{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.about-judul .judul-kiri .kiri-atas{
+	width: 100%;
+	height: 50%;
+	padding-top: 10%;
+	padding-right: 20%;
+}
+
+.about-judul .judul-kiri .kiri-atas h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4vw;
+	color: white;
+}
+
+.about-judul .judul-kiri .kiri-atas h3{
+	font-family: font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+	color: white;
+}
+
+.about-judul .judul-kiri .kiri-bawah{
+	width: 100%;
+	height: 50%;
+	background-image: url(../gambar/backgroundabout-1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+.about-judul .judul-kanan{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.about-judul .judul-kanan .kanan-atas{
+	width: 100%;
+	height: 50%;
+}
+
+.about-judul .judul-kanan .kanan-atas .atas-kiri{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-image: url(../gambar/backgroundabout-2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.about-judul .judul-kanan .kanan-atas .atas-kanan{
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-image: url(../gambar/backgroundabout-3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.about-judul .judul-kanan .kanan-bawah{
+	width: 100%;
+	height: 50%;
+}
+
+.about-judul .judul-kanan .kanan-bawah .bawah-kiri{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #e37401;
+	text-align: center;
+	justify-content: center;
+	padding-top: 20%
+}
+
+.about-judul .judul-kanan .kanan-bawah .bawah-kiri h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2vw;
+	color: white;
+}
+
+.about-judul .judul-kanan .kanan-bawah .bawah-kanan{
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-image: url(../gambar/backgroundabout-4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.about-isi{
+	width: 90%;
+	height: 50%;
+	margin: auto;
+	padding: 100px;
+}
+
+.about-isi .isi-kiri{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding-bottom: 5%;
+}
+
+.about-isi .isi-kiri .isi-background{
+	width: 100%;
+	height: 100%;
+	background-image: url(../gambar/backgroundabout-isi.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+.about-isi .isi-kanan{
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding-top: 5%;
+}
+
+.about-isi .isi-kanan .isi-keterangan{
+	width: 100%;
+	height: 100%;
+	background-color: #2c2c2c;
+	box-shadow: 0px 0px 20px 10px black; 
+	padding: 50px;
+	text-align: justify;
+}
+
+.about-isi .isi-kanan .isi-keterangan h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.8vw;
+	color: #e37401;
+	margin-bottom: 10px;
+}
+
+.about-isi .isi-kanan .isi-keterangan h1{
+	font-family: font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+	color: white;
+	font-weight: bolder;
+}
+.about-isi .isi-kanan .isi-keterangan h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7vw;
+	color: white;
+}

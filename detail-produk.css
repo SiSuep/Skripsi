@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#tampilan-1{
+	height: 100vh;
+	background-image: url(gambar/backgrounddetail.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar{
+	width: 85%;
+	height: 10%;
+	padding: 10px;
+	margin: auto;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin: 20px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+   font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
+
+.navbar input{
+	margin-left: 10px;
+	background: #ffc600;
+	border-radius: 20px;
+	border-style: none;
+    text-decoration: none;
+    padding: 7px 25px;
+    color: white;
+   	font-family: font-family: 'Roboto', sans-serif;
+   	font-weight: bolder;
+}
+
+.logo{
+	width: 13%;
+}
+
+.detail{
+	width: 80%;
+	height: 85%;
+	margin: auto;
+	padding: 40px;
+
+}
+
+.detail .detail-kiri{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 20px;
+
+}
+
+.detail .detail-kiri img{
+	height: 100%; 
+	width: 100%; 
+	top:0;
+	left:0;
+	object-fit: cover;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+.detail .detail-kanan{
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding-top:60px;
+	padding-left: 20px;
+}
+
+.detail .detail-kanan .kanan-judul{
+	width: 100%;
+	height: 10%;
+	background-color: #ffc600;
+	padding-left: 20px;
+}
+
+.detail .detail-kanan .kanan-judul h1{
+	font-size: 2.5vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.detail .detail-kanan .kanan-isi{
+	width: 100%;
+	height: 90%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.detail .detail-kanan .kanan-isi h1{
+	font-size: 3vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.detail .detail-kanan .kanan-isi h2{
+	font-size: 1.2vw;
+	color: white;
+	font-family: font-family: 'Roboto', sans-serif;
+}
+
+.detail .detail-kanan .kanan-isi h3{
+	font-size: 1.3vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 30px;
+}
+
+.detail .detail-kanan .kanan-isi h4{
+	font-size: 0.7vw;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 30px;
+}
+
+.detail .detail-kanan .kanan-isi span {
+	width: 20%;
+	height: 5px;
+	background-color: #ffc600;
+	display: inline-block;
+}
+
+.detail .detail-kanan .kanan-isi input{
+	margin-right: 10px;
+	background: #ffc600;
+	border-style: none;
+    text-decoration: none;
+    padding: 7px 25px;
+    color: white;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bolder;
+}

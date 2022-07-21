@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#tampilan-2 {
+	height: 100vh;
+	background: #f3f3f3;
+	justify-content: center;
+	display: flex;
+	padding: 30px;
+	text-align: center;
+	align-items: center;
+}
+
+.container-1{
+	height: 60%;
+	width: 50%;
+	padding: 10px;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.container-1 .atas {
+	width: 100%;
+	height: 30%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.container-1 .atas .tombol-1 button{
+	background: #ffc600;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+    padding: 10px 30px;
+    color: white;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.container-1 .atas h2{
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3vw;
+	color: black;
+}
+
+.container-1 .bawah {
+	width: 100%;
+	height: 70%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.container-1 .bawah .tombol-2 input{
+	background: #ffc600;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+    padding: 10px 30px;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+}

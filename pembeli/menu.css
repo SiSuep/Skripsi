@@ -1,0 +1,649 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#tampilan-1{
+	height: 100vh;
+	background-image: url(../gambar/backgrounmenu.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar{
+	width: 100%;
+	height: 10%;
+	display: flex;
+}
+
+.navbar .navbar-kiri{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar .navbar-kiri img{
+	width: 50%;
+	padding-top: 0.7%;
+}
+
+.navbar .navbar-tengah{
+	width: 60%;
+	height: 100%;
+	padding-left: 25%;
+	padding-top: 0.7%;
+}
+
+.navbar .navbar-tengah ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.navbar .navbar-tengah ul li a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-tengah ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+}
+
+.navbar .navbar-tengah .dropdown li{
+	display: inline-block;
+
+}
+ 
+.navbar .navbar-tengah .dropdown:hover .isi-dropdown {
+	display: block;
+	width: 250px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+ 
+.navbar .navbar-tengah .isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #181818;
+	
+}
+ 
+.navbar .navbar-tengah .isi-dropdown a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;	
+
+}
+
+.navbar .navbar-tengah .isi-dropdown a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-tengah .isi-dropdown li {
+	margin-bottom: 10px;
+}
+
+.navbar .navbar-kanan{
+	width: 20%;
+	height: 100%;
+}
+
+.navbar .navbar-kanan .nav-k-kiri{
+	width: 17%;
+	height: 100%;
+	float: left;
+	padding: 7px;
+}
+
+.navbar .navbar-kanan .nav-k-kiri .kiri-foto img{
+	height: 100%; 
+	width: 100%; 
+	top:0;
+	left:0;
+	object-fit: cover;
+	border-radius: 100%;
+	border-style: none;
+
+}
+
+.navbar .navbar-kanan .nav-k-kanan{
+	width: 83%;
+	height: 100%;
+	float: right;
+	padding-top: 4%;
+}
+
+.navbar .navbar-kanan .nav-k-kanan ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: -30px;
+}
+
+.navbar .navbar-kanan .nav-k-kanan ul li a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-kanan .nav-k-kanan ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+}
+
+.navbar .navbar-kanan .nav-k-kanan .dropdown li{
+	display: inline-block;
+
+}
+ 
+.navbar .navbar-kanan .nav-k-kanan .dropdown:hover .isi-dropdown {
+	display: block;
+	width: 200px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+ 
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #181818;
+	
+}
+ 
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;	
+
+}
+
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown a:hover {
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	
+}
+
+.navbar .navbar-kanan .nav-k-kanan .isi-dropdown li {
+	margin-bottom: 10px;
+}
+
+.menu{
+	width: 90%;
+	height: 85%;
+	margin: auto;
+	padding: 50px;
+}
+
+.menu .menu-kiri{
+	width: 40%;
+	height: 100%;
+	float: left;
+	padding-top: 12%;
+}
+
+.menu .menu-kiri h1{
+	font-size: 4.5vw;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffc600;
+}
+
+.menu .menu-kiri h2{
+	font-size: 2vw;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.menu .menu-kanan{
+	width: 60%;
+	height: 100%;
+	float: right;
+	display: flex;
+}
+
+.menu .menu-kanan .menu1{
+	width: 40%;
+	height: 100%;
+	padding: 10px;
+}
+
+.menu .menu-kanan .menu1 .box-menu1{
+	width: 100%;
+	height: 100%;
+	background-image: url(../gambar/gambar-menu1.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 20px 0px black;  
+}
+
+.menu .menu-kanan .menu2{
+	width: 30%;
+	height: 100%;
+	padding: 10px;
+}
+
+.menu .menu-kanan .menu2 .box-menu2{
+	width: 100%;
+	height: 100%;
+	background-image: url(../gambar/gambar-menu2.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 20px 0px black; 
+}
+
+.menu .menu-kanan .menu3{
+	width: 30%;
+	height: 100%;
+	padding: 10px;
+}
+
+.menu .menu-kanan .menu3 .box-menu3{
+	width: 100%;
+	height: 100%;
+	background-image: url(../gambar/gambar-menu3.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 20px 0px black; 
+}
+
+#tampilan-2{
+	height: 100vh;
+	background-color: #181818;
+}
+
+.menu-makanan{
+	height: 50%;
+	width: 100%;
+}
+
+.menu-makanan .makanan-kiri{
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding: 0.7%;
+}
+
+.menu-makanan .makanan-kiri .wallpaper{
+	height: 100%;
+	width: 100%;
+	padding-left: 8%;
+	padding-top: 10%;
+	background-image: url(../gambar/background-menu1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.menu-makanan .makanan-kiri .wallpaper h1{
+	font-size: 3.2vw;
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-makanan .makanan-kiri .wallpaper h2{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-makanan .makanan-kiri .wallpaper img{
+	width: 20%;
+	margin-top: 5%;
+}
+
+
+.menu-makanan .makanan-kanan{
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+
+.menu-makanan .makanan-kanan .makanan-atas{
+	height: 85%;
+	width: 100%;
+	background-color: #181818;
+	overflow-x: auto;
+	display: flex;
+}
+
+.menu-makanan .makanan-kanan .makanan-atas::-webkit-scrollbar{
+			display: none;
+		}
+
+.menu-makanan .makanan-kanan .makanan-atas .box_makanan {
+	width: 250px;
+	height: 100%;
+	float: left;
+	position: relative;
+	transition: 0.5s;
+	left: 0;
+	padding: 5%;
+
+}
+
+.menu-makanan .makanan-kanan .makanan-atas .box_makanan .gambar {
+	height: 75%;
+}
+
+.menu-makanan .makanan-kanan .makanan-atas .box_makanan .gambar img{
+	height: 100%; 
+	width: 100%; 
+	top:0;
+	left:0;
+	object-fit: cover;
+}
+
+.menu-makanan .makanan-kanan .makanan-atas .box_makanan .harga {
+ 	height: 25%;
+ 	padding: 5px;
+ 	position: relative;
+ 	
+}
+
+.menu-makanan .makanan-kanan .makanan-atas .box_makanan .harga  h1{
+	font-size: 1.3vw;
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+}
+.menu-makanan .makanan-kanan .makanan-atas .box_makanan .harga  h2{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.menu-makanan .makanan-kanan .makanan-bawah{
+	height: 15%;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	background-color: #181818;
+}
+
+.menu-makanan .makanan-kanan .makanan-bawah span{
+			font-size: 1.3vw;
+		    cursor: pointer;
+		    color: white;
+		    width: 5%;
+		    height: 100%;
+		    display: inline-block;
+		    line-height: 19px;
+		    text-align: center;
+		    border-radius: 3px;
+		    background-color: #e37401;
+		}
+.menu-makanan .makanan-kanan .makanan-bawah span:hover{
+			background: #222;
+    		color: white;
+		}
+
+.menu-coffee{
+	height: 50%;
+	width: 100%;
+}
+
+.menu-coffee .coffee-kiri{
+	height: 100%;
+	width: 75%;
+	float: left;
+	background-color: #181818;
+}
+
+.menu-coffee .coffee-kiri .coffee-atas{
+	height: 85%;
+	width: 100%;
+	background-color: #181818;
+	overflow-x: auto;
+	display: flex;
+}
+
+.menu-coffee .coffee-kiri .coffee-atas::-webkit-scrollbar{
+			display: none;
+		}
+
+.menu-coffee .coffee-kiri .coffee-atas .box_coffee {
+	width: 250px;
+	height: 100%;
+	float: left;
+	position: relative;
+	transition: 0.5s;
+	left: 0;
+	padding: 5%;
+
+}
+
+.menu-coffee .coffee-kiri .coffee-atas .box_coffee .gambar {
+	height: 75%;
+}
+
+.menu-coffee .coffee-kiri .coffee-atas .box_coffee .gambar img{
+	height: 100%; 
+	width: 100%; 
+	top:0;
+	left:0;
+	object-fit: cover;
+}
+
+.menu-coffee .coffee-kiri .coffee-atas .box_coffee .harga {
+ 	height: 25%;
+ 	padding: 5px;
+ 	position: relative;
+ 	
+}
+
+.menu-coffee .coffee-kiri .coffee-atas .box_coffee .harga  h1{
+	font-size: 1.3vw;
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+}
+.menu-coffee .coffee-kiri .coffee-atas .box_coffee .harga  h2{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.menu-coffee .coffee-kiri .coffee-bawah{
+	height: 15%;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	background-color: #181818;
+}
+
+.menu-coffee .coffee-kiri .coffee-bawah span{
+			font-size: 1.3vw;
+		    cursor: pointer;
+		    color: white;
+		    width: 5%;
+		    height: 100%;
+		    display: inline-block;
+		    line-height: 19px;
+		    text-align: center;
+		    border-radius: 3px;
+		    background-color: #e37401;
+		}
+.menu-coffee .coffee-kiri .coffee-bawah span:hover{
+			background: #222;
+    		color: white;
+		}
+
+.menu-coffee .coffee-kanan{
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding: 0.7%;
+}
+
+.menu-coffee .coffee-kanan .wallpaper{
+	height: 100%;
+	width: 100%;
+	padding-left: 8%;
+	padding-top: 10%;
+	background-image: url(../gambar/background-menu1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.menu-coffee .coffee-kanan .wallpaper h1{
+	font-size: 3.2vw;
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-coffee .coffee-kanan .wallpaper h2{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-coffee .coffee-kanan .wallpaper img{
+	width: 20%;
+	margin-top: 5%;
+}
+
+#tampilan-3{
+	height: 50vh;
+	background-color: #181818;
+}
+
+.menu-noncoffee{
+	height: 100%;
+	width: 100%;
+}
+
+.menu-noncoffee .noncoffee-kiri{
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding: 0.7%;
+}
+
+.menu-noncoffee .noncoffee-kiri .wallpaper{
+	height: 100%;
+	width: 100%;
+	padding-left: 8%;
+	padding-top: 5%;
+	background-image: url(../gambar/background-menu1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.menu-noncoffee .noncoffee-kiri .wallpaper h1{
+	font-size: 3.2vw;
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-noncoffee .noncoffee-kiri .wallpaper h2{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-noncoffee .noncoffee-kiri .wallpaper img{
+	width: 20%;
+	margin-top: 5%;
+}
+
+
+.menu-noncoffee .noncoffee-kanan{
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas{
+	height: 85%;
+	width: 100%;
+	background-color: #181818;
+	overflow-x: auto;
+	display: flex;
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas::-webkit-scrollbar{
+			display: none;
+		}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas .box_noncoffee {
+	width: 250px;
+	height: 100%;
+	float: left;
+	position: relative;
+	transition: 0.5s;
+	left: 0;
+	padding: 5%;
+
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas .box_noncoffee .gambar {
+	height: 75%;
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas .box_noncoffee .gambar img{
+	height: 100%; 
+	width: 100%; 
+	top:0;
+	left:0;
+	object-fit: cover;
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas .box_noncoffee .harga {
+ 	height: 25%;
+ 	padding: 5px;
+ 	position: relative;
+ 	
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas .box_noncoffee .harga  h1{
+	font-size: 1.3vw;
+	color: #ffc600;
+	font-family: 'Montserrat', sans-serif;
+}
+.menu-noncoffee .noncoffee-kanan .noncoffee-atas .box_noncoffee .harga  h2{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-bawah{
+	height: 15%;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	background-color: #181818;
+}
+
+.menu-noncoffee .noncoffee-kanan .noncoffee-bawah span{
+			font-size: 1.3vw;
+		    cursor: pointer;
+		    color: white;
+		    width: 5%;
+		    height: 100%;
+		    display: inline-block;
+		    line-height: 19px;
+		    text-align: center;
+		    border-radius: 3px;
+		    background-color: #e37401;
+		}
+.menu-noncoffee .noncoffee-kanan .noncoffee-bawah span:hover{
+			background: #222;
+    		color: white;
+		}
